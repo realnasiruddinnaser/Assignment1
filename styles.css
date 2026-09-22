@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+body {
+   width: 100%;
+   max-width: 1600px;
+   margin: 0 auto;
+}
+
+header{
+    background-color: white;
+
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-menu ul{
+    display: flex;
+    gap: 32px;
+    margin: 34px 0 34px ;
+}
+.nav-icon{
+    margin: 18px 0 16px ;
+}
+
+.nav-menu li{
+    list-style: none;
+ 
+}
+
+.nav-menu a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.nav-button {
+   margin: 34px 0 34px;
+   padding: 12px 16px;
+   border: none;
+   border-radius: 5px;
+   background-color: #469165;
+   color: white;
+   font-size: 16px;
+   font-weight: 600;
+
+}
+
+#banner{
+    background-image: url("assets/hero-bg.png");
+    width: 100%;
+    max-width: 1600px;
+    height: 674px;
+    margin: 0 auto;
+}
