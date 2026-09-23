@@ -42,6 +42,7 @@ nav{
     text-decoration: none;
     color: black;
     font-size: 16px;
+    font-weight: 600;
 }
 
 .nav-button {
@@ -62,4 +63,74 @@ nav{
     max-width: 1600px;
     height: 674px;
     margin: 0 auto;
+    text-align: center;
 }
+
+ #banner .banner-btn1{
+    padding-top: 123px;
+    padding-bottom: 16px;
+ }
+
+ #banner .banner-btn1 button{
+    background-color:white;
+    padding: 8px 20px;
+    color: #469165;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 600;
+ }
+
+#banner .banner-btn1 #green{
+    color: #469165;
+    margin-right: 5px;
+}
+#banner .banner-heading{
+    margin-top: 16px;
+}
+
+#banner .banner-heading h1{
+    color: white;
+    font-weight: bold;
+    font-size: 80px;
+}
+
+#banner .banner-heading #note-taking{
+    color: #469165;
+    margin-bottom: 16px;
+}
+
+
+#banner .banner-heading p{
+    color: white;
+    line-height: 28px;
+    font-size: 18px;
+    width: 690px;
+    margin: 0 auto;
+} 
+
+.banner-btn2{
+    margin-top: 20px;
+}
+ .banner-btn2 #btn1{
+    margin: 16px;
+    padding: 16px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    background-color: #469165;
+    color: white;
+}
+
+.banner-btn2 #btn2{
+    margin: 16px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 16px 30px;
+    border-radius: 5px;
+    color: white;
+    border: 2px solid white;
+    background-color: transparent;
+}
+
