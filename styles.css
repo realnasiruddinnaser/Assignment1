@@ -17,7 +17,6 @@ body {
 
 header{
     background-color: white;
-
 }
 nav{
     display: flex;
@@ -154,14 +153,18 @@ nav{
 
 .note-container{
     display: flex;
-    max-width: 1360px;
+    justify-content: center;
     gap: 24px;
     margin: 0 auto;
+    max-width: 1360px;
+    width: 100%;
 }
 
 .note-card{
     max-width: 322px;
-     box-shadow: 0 6px 50px 0 #00000027;
+    width: 100%;
+    box-shadow: 0 6px 50px 0 #00000027;
+
 }
 
 .note-container .note-card img{
@@ -184,4 +187,46 @@ nav{
     color: #627382;
     margin-bottom: 21px;
     max-width: 300px;
+}
+#solution {
+    max-width: 1360px;
+    width: 100%;
+    margin: 120px auto;
+    display: flex;
+    gap: 60px;
+   
+}
+
+#solution .the-solutions h4{
+    color: #469165;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 16px;
+    max-width: 700px;
+    margin-top: 102px;
+}
+
+#solution .the-solutions h1{
+    color: black;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    max-width: 600px;
+}
+
+#solution .the-solutions p {
+    color: #627382;
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+
+#solution .the-solutions h5{
+    margin-top: 20px;
+    color: #001931;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#correct-icon{
+    color: #30B868;
 }
