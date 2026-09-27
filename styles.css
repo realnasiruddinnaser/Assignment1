@@ -134,3 +134,54 @@ nav{
     background-color: transparent;
 }
 
+#notes{
+    text-align: center;
+}
+
+#notes .note-heading h2{
+   font-size: 48px;
+   font-weight: bold;
+   max-width: 1360px;
+   margin: 40px auto 20px;
+}
+
+#notes .note-heading p{
+    color: #627382;
+    font-size: 16px;
+    margin-bottom: 44px;
+}
+
+
+.note-container{
+    display: flex;
+    max-width: 1360px;
+    gap: 24px;
+    margin: 0 auto;
+}
+
+.note-card{
+    max-width: 322px;
+     box-shadow: 0 6px 50px 0 #00000027;
+}
+
+.note-container .note-card img{
+    background: rgb(216, 63, 63);
+    padding: 14px 14px;
+    border-radius: 50%;
+    margin-top: 69px;
+    margin-bottom: 16px;
+}
+
+.note-container .note-card h3{
+    font-size: 24px;
+    font-weight: 600;
+    max-width: 274px;
+    margin: 0 auto 16px;
+}
+
+.note-container .note-card p{
+    font-size: 16px;
+    color: #627382;
+    margin-bottom: 21px;
+    max-width: 300px;
+}
