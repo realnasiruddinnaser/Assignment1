@@ -280,3 +280,47 @@ nav{
     margin: 16px auto;
     padding-bottom: 80px;
  }
+
+ footer{
+    max-width: 1600px;
+    width: 100%;
+    margin: 120px auto 0;
+    background-color: #001931;
+
+ }
+
+ footer .thefinal{
+    display: flex;
+    max-width: 1360px;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding-top: 120px;
+    padding-bottom: 80px;
+ }
+
+footer .social-icons h3 {
+    color: white;
+    max-width: 120px;
+    width: 100%;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.social-icons a img {
+    background-color: transparent;
+    margin-right: 15px;
+    margin-top: 20px;
+    padding: 10px 10px;
+    border: 1px solid #754b14;
+    border-radius: 10px;
+}
+
+footer .copyright p{
+    max-width: 1360px;
+    margin: 0 auto;
+    color: white;
+    padding-top: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+    border-top: 1px solid #363b3f;
+}
